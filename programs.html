@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programs &amp; Events | Vale Elementary PTO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&family=Playfair+Display:600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="index.html">
+      <img src="images/Vale-PTO-Logo.png" alt="Vale Elementary PTO logo">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="current" href="programs.html">Programs &amp; Events</a></li>
+        <li><a href="fun-run.html">Fun Run</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="nav-donate"><a href="https://givebutter.com/vale-fun-run-hhnee5" target="_blank" rel="noopener">Donate</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">2025-2026 School Year</p>
+    <h1>Programs &amp; Events</h1>
+  </div>
+</section>
+
+<section class="split-section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Get Involved</p>
+      <h2 id="get-involved">Get Involved</h2>
+      <p>From our annual Gingerbread Store and Fun Run to movie nights and enrichment activities &ndash; we are working on developing a full list of projects for the coming year. Take a look at our upcoming opportunities below and submit the interest form to let us know how you&rsquo;d like to help.</p>
+    </div>
+    <div>
+      <img src="images/Gingerbread-Shop.jpg" alt="Gingerbread Shop volunteers">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="center">Projects &amp; Events</h2>
+    <div class="event-list">
+
+      <div class="event-item">
+        <span class="event-date">Year-Round &middot; Start of School</span>
+        <h3>School Supply Program</h3>
+        <p>Every Vale student starts the year ready to learn &mdash; the PTO helps make sure school supplies are available to any family who needs them.</p>
+      </div>
+
+      <div class="event-item">
+        <span class="event-date">Year-Round &middot; Distributed in June</span>
+        <h3>Yearbook</h3>
+        <p>A meaningful keepsake of the school year, our yearbook captures the moments and memories from every Vale classroom.</p>
+      </div>
+
+      <div class="event-item">
+        <span class="event-date">October 29 &middot; 6:00&ndash;7:30 PM</span>
+        <h3>Fiesta Dia de los Muertos</h3>
+        <p>A community celebration with music and activities, held at Cashmere High School.</p>
+      </div>
+
+      <div class="event-item">
+        <span class="event-date">December</span>
+        <h3>Gingerbread Store</h3>
+        <p>A gift-giving opportunity that lets students shop for and give gifts to the people they love.</p>
+      </div>
+
+      <div class="event-item">
+        <span class="event-date">May</span>
+        <h3>Teacher Appreciation Week</h3>
+        <p>A week of recognition activities to show our incredible teachers and staff how much they&rsquo;re valued.</p>
+      </div>
+
+      <div class="event-item">
+        <span class="event-date">May 21</span>
+        <h3>Vale Fun Run</h3>
+        <p>Our primary fundraiser of the year, featuring a parade escorted by the fire department and marching band followed by track activities. <a href="fun-run.html">Learn more &rarr;</a></p>
+      </div>
+
+      <div class="event-item">
+        <span class="event-date">Twice Yearly</span>
+        <h3>Movie Nights</h3>
+        <p>Family entertainment nights with complimentary refreshments for the whole Vale community.</p>
+      </div>
+
+      <div class="event-item">
+        <span class="event-date">Annual</span>
+        <h3>Enrichment Activities</h3>
+        <p>Hands-on educational experiences that bring extra learning opportunities into the classroom.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="center">Volunteer Interest Form</h2>
+    <p class="center">Let us know how you&rsquo;d like to get involved and we&rsquo;ll be in touch!</p>
+    <!-- Handled by Netlify Forms - submissions go to whatever email is set under Site configuration > Forms > Form notifications in the Netlify dashboard (set to cashmerevalepto@gmail.com). -->
+    <form class="form-card" name="volunteer-interest" method="POST" action="/thank-you.html" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="volunteer-interest">
+      <p class="note" style="display:none;"><label>Don&rsquo;t fill this out: <input name="bot-field"></label></p>
+
+      <label for="p-name">Name</label>
+      <input id="p-name" type="text" name="name" required>
+
+      <label for="p-email">Email</label>
+      <input id="p-email" type="email" name="email" required>
+
+      <label for="p-phone">Phone Number</label>
+      <input id="p-phone" type="tel" name="phone">
+
+      <label>I&rsquo;m interested in&hellip;</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="activity" value="School Supply Program"> School Supply Program</label>
+        <label><input type="checkbox" name="activity" value="Yearbook"> Yearbook</label>
+        <label><input type="checkbox" name="activity" value="Fiesta Dia de los Muertos"> Fiesta Dia de los Muertos</label>
+        <label><input type="checkbox" name="activity" value="Gingerbread Store"> Gingerbread Store</label>
+        <label><input type="checkbox" name="activity" value="Teacher Appreciation Week"> Teacher Appreciation Week</label>
+        <label><input type="checkbox" name="activity" value="Vale Fun Run"> Vale Fun Run</label>
+        <label><input type="checkbox" name="activity" value="Movie Nights"> Movie Nights</label>
+        <label><input type="checkbox" name="activity" value="Enrichment Activities"> Enrichment Activities</label>
+      </div>
+
+      <label for="p-comments">Comments</label>
+      <textarea id="p-comments" name="comments" rows="4"></textarea>
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Copyright &copy; 2026 Vale Elementary PTO | All Rights Reserved</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
